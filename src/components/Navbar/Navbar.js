@@ -26,7 +26,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar  dark fixed="top" expand="md" className="shadow" style={{backgroundImage: "linear-gradient(to top, rgba(0, 4, 40,.3), rgba(0, 78, 146,.3))"}}>
+        <Navbar  dark fixed="top" expand="md" className="shadow" style={{backgroundImage: "linear-gradient(to top, rgba(0, 4, 40,.8), rgba(0, 78, 146,.8))"}}>
           <NavbarBrand href="/" style={{
             fontFamily: "Condiment, cursive", 
             fontWeight: "bolder",
