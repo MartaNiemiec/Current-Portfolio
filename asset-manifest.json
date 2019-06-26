@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Current-Portfolio/static/css/main.142e7ec3.chunk.css",
+    "main.js": "/Current-Portfolio/static/js/main.b6c40b56.chunk.js",
+    "main.js.map": "/Current-Portfolio/static/js/main.b6c40b56.chunk.js.map",
+    "runtime~main.js": "/Current-Portfolio/static/js/runtime~main.7fc1f21a.js",
+    "runtime~main.js.map": "/Current-Portfolio/static/js/runtime~main.7fc1f21a.js.map",
+    "static/css/2.43d354e1.chunk.css": "/Current-Portfolio/static/css/2.43d354e1.chunk.css",
+    "static/js/2.7becb737.chunk.js": "/Current-Portfolio/static/js/2.7becb737.chunk.js",
+    "static/js/2.7becb737.chunk.js.map": "/Current-Portfolio/static/js/2.7becb737.chunk.js.map",
+    "index.html": "/Current-Portfolio/index.html",
+    "precache-manifest.b2218093693070b7d77c6bce87f47ce1.js": "/Current-Portfolio/precache-manifest.b2218093693070b7d77c6bce87f47ce1.js",
+    "service-worker.js": "/Current-Portfolio/service-worker.js",
+    "static/css/2.43d354e1.chunk.css.map": "/Current-Portfolio/static/css/2.43d354e1.chunk.css.map",
+    "static/css/main.142e7ec3.chunk.css.map": "/Current-Portfolio/static/css/main.142e7ec3.chunk.css.map",
+    "static/media/bestandalucia.jpg": "/Current-Portfolio/static/media/bestandalucia.835ff056.jpg",
+    "static/media/budgety.jpg": "/Current-Portfolio/static/media/budgety.d98b5bb5.jpg",
+    "static/media/facerecognition.jpg": "/Current-Portfolio/static/media/facerecognition.78dbe8cd.jpg",
+    "static/media/Header.module.scss": "/Current-Portfolio/static/media/keybord1.da5f20f0.jpg",
+    "static/media/learningplanner.jpg": "/Current-Portfolio/static/media/learningplanner.ae7ef873.jpg",
+    "static/media/mybooks.jpg": "/Current-Portfolio/static/media/mybooks.4849dc17.jpg",
+    "static/media/natours.jpg": "/Current-Portfolio/static/media/natours.a08688b5.jpg",
+    "static/media/piggame.jpg": "/Current-Portfolio/static/media/piggame.862ce19d.jpg",
+    "static/media/polind.jpg": "/Current-Portfolio/static/media/polind.111c7fa3.jpg",
+    "static/media/ponggame.jpg": "/Current-Portfolio/static/media/ponggame.33e9117b.jpg",
+    "static/media/robofriends.jpg": "/Current-Portfolio/static/media/robofriends.20a1082d.jpg",
+    "static/media/starwars.jpg": "/Current-Portfolio/static/media/starwars.ff5266e7.jpg",
+    "static/media/trillo.jpg": "/Current-Portfolio/static/media/trillo.f0c9f9c3.jpg"
+  }
+}
