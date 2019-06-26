@@ -4,6 +4,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Navigation from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
+import OwnProjects from './components/Projects/CardList/OwnProjects';
+
 
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
     <div className="App">
     <Navigation />
     <Header />
-    <Projects/>
+    <Projects projectsTitle="Selected own projects" projects={<OwnProjects/>}/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import  Card  from './Card/Card';
+import Card  from './Card/Card';
 import mybooks from '../../../images/mybooks.jpg';
 import starwars from '../../../images/starwars.jpg';
 import learningplanner from '../../../images/learningplanner.jpg';
@@ -7,7 +7,7 @@ import ponggame from '../../../images/ponggame.jpg';
 import polind from '../../../images/polind.jpg';
 import bestandalucia from '../../../images/bestandalucia.jpg';
 
-const cardList = (props) => {
+const ownProjects = (props) => {
   return (
     <Fragment>
       <Card cardTitle="Bestandalucia" 
@@ -44,4 +44,4 @@ const cardList = (props) => {
   );
 };
 
-export default cardList;
+export default ownProjects;

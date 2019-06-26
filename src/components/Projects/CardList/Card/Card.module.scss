@@ -13,15 +13,14 @@
     transition: all .4s ease-in-out;
 
     & h4 {
-      width: 345px;
+      // width: 345px;
       text-align: center;
-      transform: translate(-25px, 320px);
+      transform: translateY(336px);
       text-transform: uppercase;
       font-style: italic;
       font-weight: bolder;
       padding: 20px 10px;
       background-image: linear-gradient(to right, rgba(104, 5, 161, 0.753), rgba(5, 108, 197, 0.767));
-      border-radius: 10px;
       border-bottom: 3px solid white;
       transition: all .4s ease-in-out;
     }
@@ -51,7 +50,7 @@
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     padding: 10px;
-    background-image: linear-gradient(to right, rgba(128, 5, 161, 0.753), rgba(5, 108, 197, 0.767));
+    background-image: linear-gradient(to right, rgba(161, 56, 190, 0.801), rgba(46, 122, 189, 0.815));
     width: inherit;
     border-bottom: 2px solid white;
     transform: translateX(0);
@@ -66,6 +65,7 @@
     // transform: translateY(0);
     visibility: visible;
     transform: translateY(0);
+    margin: 1.25rem;
     // background-color: rgba(0, 0, 0, 0.452);
    
   }
