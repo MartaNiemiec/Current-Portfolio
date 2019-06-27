@@ -1,0 +1,40 @@
+.Footer {
+  background-image: linear-gradient(to right, rgba(0, 4, 40, 0.9), rgba(0, 78, 146, 0.9));
+  padding: 2rem;
+
+  &__map {
+    border-radius: 5px;
+    
+  }
+
+  &__contactMessage {
+    text-shadow: -3px -1px 3px rgba(255, 0, 255, 0.781);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
+    box-shadow: inset 2px 2px 1px 1px rgba(255, 0, 255, 0.781);
+    border-radius: 8px;
+    padding: .7rem 1.4rem;
+    // border-bottom: 2px solid rgba(255, 0, 255, 0.781);
+  }
+
+  &__socialIcon {
+    font-size: 1.5rem;
+    padding: .7rem .9rem;
+    margin: .2rem;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 1px 1px #00aeff;
+    color: rgb(255, 255, 255);
+    transition: all .2s ease-in-out;
+    background-color: rgba(40, 0, 37, 0.3);
+
+    &:hover {
+      color: rgb(255, 255, 255);
+      box-shadow: inset 1px 1px 1px 1px #00aeff;
+      font-size: 1.4rem;
+      padding: .6rem .8rem;
+      margin: .2rem .3rem;
+      background-color: rgba(40, 0, 37, 0.2);
+    }
+  }
+}

@@ -10,7 +10,7 @@ import natours from '../../../images/natours.jpg';
 const coursesProjects = (props) => {
   return (
     <Fragment>
-      <Card cardTitle="Smart brain recognition app   " 
+      <Card cardTitle="Smart brain" 
             technologies="HTML/CSS,Tachyons CSS framework,Node.js/Express.js,SQL/PostgreSQL,Heroku" 
             liveLink="https://smart-brain-recognition-app.herokuapp.com/" 
             githubLink="https://github.com/MartaNiemiec/smart_brain-recognition_app"
