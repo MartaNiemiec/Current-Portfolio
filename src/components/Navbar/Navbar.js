@@ -7,6 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink } from 'reactstrap';
+  import logo from '../../images/favicon.png';
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -26,12 +27,10 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar  dark fixed="top" expand="md" className="shadow" style={{backgroundImage: "linear-gradient(to top, rgba(0, 4, 40,.8), rgba(0, 78, 146,.8))"}}>
-          <NavbarBrand href="/" style={{
-            fontFamily: "Condiment, cursive", 
-            fontWeight: "bolder",
-            letterSpacing: ".2rem",
-            fontSize: "1.5rem"}}>Marta Niemiec</NavbarBrand>
+        <Navbar  dark fixed="top" expand="md" className="shadow pt-1 pb-1" style={{backgroundImage: "linear-gradient(to top, rgba(0, 4, 40,.8), rgba(0, 78, 146,.8))"}}>
+          <NavbarBrand href="/" className="p-0">
+            <img style={{height:"3.5rem"}} src={logo} alt="logo"/>
+            </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar >

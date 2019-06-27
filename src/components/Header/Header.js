@@ -8,11 +8,11 @@ const Header = (props) => {
       <Jumbotron fluid className={`"p-0 text-white vh-100" ${classes.Jumbo}`} 
       style={{
         }}>
-        <Container  className="vh-100 text-center d-flex flex-column justify-content-center ">
+        <Container  className="text-center d-flex flex-column justify-content-center ">
           <span className={classes.About}>
           <h1 className={classes.Jumbo__name}>Marta Niemiec</h1>
           <h3 >FRONT END DEVELOPER</h3>
-          <p>After learning the basics of graphic design and launching my own travel website in WordPress three years ago, I dived into the front-end world to learn building modern, responsive websites and apps from scratch. My goal is to become a Full Stack Developer. </p>
+          <p className={classes.Jumbo__info}>After learning the basics of graphic design and launching my own travel website in WordPress three years ago, I dived into the front-end world to learn building modern, responsive websites and apps from scratch. My goal is to become a Full Stack Developer. </p>
           <h4 className="mt-4">I have experience with </h4>
           <h1 className="d-flex flex-wrap justify-content-center align-items-center">
             <i className={`${classes.Jumbo__icon} devicon-html5-plain-wordmark`}></i>

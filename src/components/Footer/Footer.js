@@ -3,12 +3,12 @@ import * as classes from './Footer.module.scss';
 
 const projects = (props) => {
   return (
-    <footer id="footer" className={`page-footer font-small special-color-dark pt-4 ${classes.Footer}`}>
+    <footer id="footer" className={`page-footer font-small special-color-dark ${classes.Footer}`}>
       <div className="container d-flex flex-wrap justify-content-center">
 
         <div className="mapouter">
           <div className="gmap_canvas">
-            <iframe className={classes.Footer__map} title="location" width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20luis%20de%20sabinillas&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe className={classes.Footer__map} title="location" width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20luis%20de%20sabinillas&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             <a href="https://www.maps-erstellen.de"></a>
           </div>
         </div>
