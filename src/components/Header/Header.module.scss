@@ -68,22 +68,15 @@
   }
 
   &__name {
-    /* font-family: 'Audiowide', cursive; */
-    font-family: 'Condiment', cursive;
-    text-shadow: -3px -2px 2px rgba(255, 0, 255, 0.781);
+    font-family: 'Vivaldi Italic';
+    background-image: linear-gradient(to right, #df1a00 10%,#ecef2d 40%,#22d63a 48%,#286ef1 100%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bolder;
     letter-spacing: .3rem;
     font-size: 4rem;
-
-    &::before {
-      content: 'Marta Niemiec';
-      position: absolute;
-      text-align: center;
-      color: rgba(200, 0, 255, 0.781);
-      transform: translate(-6px, -5px);
-      z-index: -1;
-      text-shadow: -3px -2px 2px rgba(150, 0, 255, 0.78);
-    }
+    max-width: 50%;
+    margin: 0 auto;
   }
 
   &__icon {

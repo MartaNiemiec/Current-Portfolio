@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: 'Vivaldi Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Vivaldi Italic'), url('./images/VIVALDII.woff') format('woff');
+  }

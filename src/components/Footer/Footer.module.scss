@@ -38,4 +38,14 @@
       background-color: rgba(40, 0, 37, 0.2);
     }
   }
+
+  &__myname {
+    font-family: 'Vivaldi Italic';
+    background-image: linear-gradient(to right, #df1a00 10%,#ecef2d 40%,#22d63a 48%,#286ef1 100%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    padding-left: .3rem;
+    font-size: 2rem;
+  }
 }
