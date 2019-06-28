@@ -15,12 +15,12 @@ const ownProjects = (props) => {
             liveLink="http://www.bestandalucia.com/" 
             githubLink=""
             image={bestandalucia}/>
-      <Card cardTitle="My Books React app" 
+      <Card cardTitle="My Books" 
             technologies="HTML/SCSS,NPM,React,Redux,Google Books API" 
             liveLink="https://martaniemiec.github.io/My-Books-with-Redux/" 
             githubLink="https://github.com/MartaNiemiec/My-Books-with-Redux"
             image={mybooks}/>
-      <Card cardTitle="Star Wars React app" 
+      <Card cardTitle="Star Wars" 
             technologies="HTML/CSS,NPM,React,Tachyons,The Star Wars API,React Particles.js" 
             liveLink="https://martaniemiec.github.io/starwars_api/" 
             githubLink="https://github.com/MartaNiemiec/starwars_api"

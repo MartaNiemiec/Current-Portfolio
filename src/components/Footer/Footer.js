@@ -31,7 +31,7 @@ const projects = (props) => {
         </div>
         
       </div>
-      <div className="footer-copyright text-center py-3 text-light">© 2019 Copyright: <span className={classes.Footer__myname}>{"<"} Marta Niemiec {"/ >"}</span>
+      <div className="footer-copyright text-center py-3 text-light">© 2019 Copyright: <span className={classes.Footer__myname}>{"<"}Marta Niemiec{"/ >"}</span>
       </div>
     </footer>
 
