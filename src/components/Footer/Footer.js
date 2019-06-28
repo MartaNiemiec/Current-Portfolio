@@ -9,7 +9,7 @@ const projects = (props) => {
         <div className="mapouter">
           <div className="gmap_canvas">
             <iframe className={classes.Footer__map} title="location" width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20luis%20de%20sabinillas&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://www.maps-erstellen.de"></a>
+            <a href="https://www.maps-erstellen.de"> </a>
           </div>
         </div>
         <div className="p-5">
