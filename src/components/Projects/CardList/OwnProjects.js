@@ -12,8 +12,7 @@ const ownProjects = (props) => {
     <Fragment>
       <Card cardTitle="Bestandalucia" 
             technologies="WordPress themes and plugins,CSS,Photoshop,Illustrator" 
-            liveLink="http://www.bestandalucia.com/" 
-            githubLink=""
+            liveLink="http://www.bestandalucia.com/"
             image={bestandalucia}/>
       <Card cardTitle="My Books" 
             technologies="HTML/SCSS,NPM,React,Redux,Google Books API" 

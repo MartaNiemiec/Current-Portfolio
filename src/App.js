@@ -21,7 +21,7 @@ function App() {
                 projects={<OwnProjects/>}/>
       <Projects projectsId="couresProjects" 
                 bgColor="bg-light" 
-                projectsTitle="Courses projects" 
+                projectsTitle="Selected courses projects" 
                 projects={<CouresProjects/>}/>
       <Footer />
     </div>

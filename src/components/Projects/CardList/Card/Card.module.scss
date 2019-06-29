@@ -13,7 +13,6 @@
     transition: all .4s ease-in-out;
 
     & h4 {
-      // width: 345px;
       text-align: center;
       transform: translateY(338px);
       text-transform: uppercase;
@@ -30,6 +29,7 @@
       transform: translateY(300px);
       transition: all .4s ease-in-out;
       visibility: hidden;
+      margin: .2rem 1rem;
     }
 
     & ul {
@@ -37,6 +37,7 @@
       transform: translateY(300px);
       transition: all .4s ease-in-out;
       visibility: hidden;
+      margin: 0 1rem;
     }
   }
 
@@ -54,20 +55,15 @@
     width: inherit;
     border-bottom: 2px solid white;
     transform: translateX(0);
+    margin: 1rem;
   }
 
   &:hover &__content h4,
   &:hover &__content h5,
   &:hover &__content ul,
-  &:hover &__links
-  {
-    // animation: example .5s ease-in-out;
-    // transform: translateY(0);
+  &:hover &__links {
     visibility: visible;
-    transform: translateY(0);
-    margin: 1.25rem;
-    // background-color: rgba(0, 0, 0, 0.452);
-   
+    transform: translateY(0);   
   }
 
   &__img {
@@ -79,14 +75,6 @@
     transform: translateY(300px);
     transition: all .1s ease-in-out;
     visibility: hidden;
+    margin: 1rem;
   }
-
 }
-
-// @keyframes example {
-//   from { transform: translateY(100%);
-//         visibility: hidden;}
-//   to { transform: translateY(0);
-//       visibility: visible;
-//       }
-// }
