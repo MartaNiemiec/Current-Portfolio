@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="src/images/favicon.png">
+  <img src="src/assets/images/favicon.png">
 </p>
 <h1 align="center">Portfolio</h1>
 
@@ -16,3 +16,4 @@ My portfolio made in React with reactstrap/Bootstrap 4.
 ## Acknowledgements
 * [Devicons](https://konpa.github.io/devicon/)
 * [Font Awesome](https://fontawesome.com/)
+* [React-reveal](https://www.react-reveal.com/)
