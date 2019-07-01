@@ -7,7 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink } from 'reactstrap';
-  import logo from '../../images/favicon.png';
+  import logo from '../../assets/images/favicon.png';
 
 export default class Navigation extends React.Component {
   constructor(props) {

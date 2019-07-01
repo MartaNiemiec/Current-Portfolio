@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import Card  from './Card/Card';
-import facerecognition from '../../../images/facerecognition.jpg';
-import robofriends from '../../../images/robofriends.jpg';
-import budgety from '../../../images/budgety.jpg';
-import piggame from '../../../images/piggame.jpg';
-import trillo from '../../../images/trillo.jpg';
-import natours from '../../../images/natours.jpg';
-import forkify from '../../../images/forkify.jpg';
-import burger from '../../../images/burger.jpg';
+import facerecognition from '../../assets/images/facerecognition.jpg';
+import robofriends from '../../assets/images/robofriends.jpg';
+import budgety from '../../assets/images/budgety.jpg';
+import piggame from '../../assets/images/piggame.jpg';
+import trillo from '../../assets/images/trillo.jpg';
+import natours from '../../assets/images/natours.jpg';
+import forkify from '../../assets/images/forkify.jpg';
+import burger from '../../assets/images/burger.jpg';
 import Fade from 'react-reveal/Fade';
 
 const coursesProjects = (props) => {

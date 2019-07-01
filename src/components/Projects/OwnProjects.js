@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 import Card  from './Card/Card';
-import mybooks from '../../../images/mybooks.jpg';
-import starwars from '../../../images/starwars.jpg';
-import learningplanner from '../../../images/learningplanner.jpg';
-import ponggame from '../../../images/ponggame.jpg';
-import polind from '../../../images/polind.jpg';
-import bestandalucia from '../../../images/bestandalucia.jpg';
+import mybooks from '../../assets/images/mybooks.jpg';
+import starwars from '../../assets/images/starwars.jpg';
+import learningplanner from '../../assets/images/learningplanner.jpg';
+import ponggame from '../../assets/images/ponggame.jpg';
+import polind from '../../assets/images/polind.jpg';
+import bestandalucia from '../../assets/images/bestandalucia.jpg';
 import Fade from 'react-reveal/Fade';
 
 const ownProjects = (props) => {

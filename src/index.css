@@ -16,5 +16,5 @@ code {
   font-family: 'Vivaldi Italic';
   font-style: normal;
   font-weight: normal;
-  src: local('Vivaldi Italic'), url('./images/VIVALDII.woff') format('woff');
+  src: local('Vivaldi Italic'), url('./assets/fonts/VIVALDII.woff') format('woff');
   }
