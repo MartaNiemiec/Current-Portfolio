@@ -1,30 +1,7 @@
 .About {
   position:relative;
-  // padding: 35px;
   padding: 60px 0;
 }
-
-/* .About::before,
-.About::after {
-  position: absolute;
-  content: '';
-  width:20%;
-  height:2px;
-  background-color:white;
-  left:  auto;
-  right: auto;
-  transform: translateX(-50%);
-} */
-
-/* .About::before {
-  top: 0;
-}
-
-.About::after {
-  bottom: 0;
-} */
-
-
 
 .Jumbo {
   background-image: linear-gradient(to right, rgba(0, 4, 40,.75), rgba(0, 78, 146,.75)),url(../../assets/images/keybord1.jpg);
@@ -40,7 +17,6 @@
     margin: 0 auto;
   }
   
-
   &::before {
     position: absolute;
     content: '';
@@ -80,7 +56,6 @@
     @media (max-width: 420px) {
       font-size: 3rem;
     }
-
   }
 
   & h3 {
