@@ -1,5 +1,6 @@
 import React from 'react';
 import * as classes from './Footer.module.scss';
+import Fade from 'react-reveal/Fade';
 
 const projects = (props) => {
   const map = <div className="mapouter">
@@ -32,12 +33,16 @@ const projects = (props) => {
                       </div>
 
   return (
-    <footer id="footer" className={`page-footer font-small special-color-dark ${classes.Footer}`}>
-      <div className="container d-flex flex-wrap justify-content-center">
-        {map}
-        {contact}
-      </div>
-      {copyright}
+    <footer id="footer" className={`page-footer font-small special-color-dark ${classes.Footer}`} style={{overflow: "hidden"}}>
+      <Fade bottom>
+        <div className="container d-flex flex-wrap justify-content-center">
+          {map}
+          {contact}
+        </div>
+      </Fade>
+      <Fade bottom delay={500}>
+        {copyright}
+      </Fade>
     </footer>
 
         

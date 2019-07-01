@@ -5,10 +5,10 @@ import { Container } from 'reactstrap';
 const projects = (props) => {
   return (
     <div id={props.projectsId} className={`w-100 ${props.bgColor}`}>
-      <Container className="pb-5 pt-5 pr-0 pl-0">
+      <Container className="pb-5 pt-5 pr-0 pl-0" style={{overflow: "hidden"}}>
           <h1 className={`text-secondary text-center font-weight-bolder mb-4 Projects__title ${classes.Projects__title}`}>{props.projectsTitle}</h1>
-          <div className="mb-4 d-flex flex-wrap justify-content-center">
-            {props.projects}
+            <div className="mb-4 d-flex flex-wrap justify-content-center">
+          {props.projects}
           </div>
         </Container>
     </div>

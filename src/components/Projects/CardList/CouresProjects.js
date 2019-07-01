@@ -8,10 +8,12 @@ import trillo from '../../../images/trillo.jpg';
 import natours from '../../../images/natours.jpg';
 import forkify from '../../../images/forkify.jpg';
 import burger from '../../../images/burger.jpg';
+import Fade from 'react-reveal/Fade';
 
 const coursesProjects = (props) => {
   return (
     <Fragment>
+    <Fade bottom>
       <Card cardTitle="Burger builder" 
             technologies="HTML/CSS,JavaScript (ES6),React,Redux,React-router,Firebase" 
             liveLink="https://martaniemiec.github.io/Burger-builder/" 
@@ -60,6 +62,7 @@ const coursesProjects = (props) => {
             githubLink="https://github.com/MartaNiemiec/Udemy-Advanced_CSS_and_Sass/tree/master/Notours"
             courseLink="https://www.udemy.com/advanced-css-and-sass/"
             image={natours}/>
+      </Fade>
     </Fragment>
   );
 };
