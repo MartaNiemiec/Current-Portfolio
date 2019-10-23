@@ -43,5 +43,12 @@
     font-weight: bolder;
     padding-left: .3rem;
     font-size: 1.5rem;
+    @media (max-width: 420px) {
+      width: 100vw;
+    }
+  }
+
+  &__copyright {
+    padding: 10px 15px;
   }
 }

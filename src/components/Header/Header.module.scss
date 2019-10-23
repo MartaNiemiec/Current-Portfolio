@@ -15,11 +15,24 @@
   &__info {
     max-width: 600px;
     margin: 0 auto;
+
+    a {
+      color: rgb(48, 136, 238);
+      &:hover {
+      text-decoration: none;
+      color: rgb(148, 197, 253);
+      }
+    }
+
+    p {
+      margin-bottom: .2rem;
+    }
   }
   
   &::before {
     position: absolute;
     content: '';
+    z-index: -1;
     bottom: 9%;
     left: 0;
     width: 100%;
@@ -31,6 +44,7 @@
   &::after {
     position: absolute;
     content: '';
+    z-index: -1;
     bottom: 4%;
     left: 0;
     width: 100%;
@@ -54,19 +68,7 @@
     margin: 0 auto;
 
     @media (max-width: 420px) {
-      font-size: 3rem;
-    }
-  }
-
-  & h3 {
-    @media (max-width: 420px) {
-      font-size: 1.5rem;
-    }
-  }
-
-  & h4 {
-    @media (max-width: 420px) {
-      font-size: 1.3rem;
+      font-size: 3rem !important;
     }
   }
 

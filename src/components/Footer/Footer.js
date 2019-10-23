@@ -25,10 +25,16 @@ const projects = (props) => {
                           <i className="fab fa-github"></i>
                         </a>
                       </li>
+                      <li className={`list-inline-item `}>
+                        <a href="https://twitter.com/Marta_Niemiec" 
+                          className={`btn-floating btn-dribbble ${classes.Footer__socialIcon}`}>
+                          <i className="fab fa-github"></i>
+                        </a>
+                      </li>
                     </ul>
                   </div>
 
-    const copyright = <div className="footer-copyright text-center py-3 text-light">© 2019 Copyright: 
+    const copyright = <div className={`footer-copyright text-center py-3 text-light ${classes.Footer__copyright}`}>© 2019 Copyright: 
                         <span className={classes.Footer__myname}>{"<"}Marta Niemiec{"/ >"}</span>
                       </div>
 

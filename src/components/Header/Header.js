@@ -13,13 +13,18 @@ const Header = (props) => {
                 </Fade>
 
   const about =  <Fade bottom delay={1000}>
-                  <p className={classes.Jumbo__info}>
-                    Front End Developer passionate about building <span className="text-warning font-weight-bold">JavaScript</span> and <span className="text-info font-weight-bold">React.js</span> applications. 
-                    Having built my own travel website in WordPress four years ago got me hooked into web development. And I haven’t stopped coding ever since! </p>
+                  <div className={classes.Jumbo__info}>
+                    <p>Front End Developer passionate about building <span className="text-warning font-weight-bold">JavaScript</span> and <span className="text-info font-weight-bold">React.js</span> applications. </p>
+                    <p>Administrator of my WordPress travel website - 
+                    <a href="http://www.bestandalucia.com/"> bestandalucia.com</a>. </p>
+                    <p>Contributor to open source Angular project - 
+                    <a href="https://topicfriends.org/"> TopicFriends</a>.</p> 
+                    <p>Graphic designer at GDG Málaga.</p>
+                  </div>
                 </Fade>
 
   const experience = <Fade bottom delay={2000}>
-                      <h4 className="mt-4">I have experience with </h4>
+                      <h4 className="mt-4">Experience with </h4>
                     </Fade>
 
   const icons = <Fade bottom cascade delay={2500}>
@@ -31,6 +36,7 @@ const Header = (props) => {
                     <i className={`${classes.Jumbo__icon} devicon-javascript-plain`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-react-original-wordmark`}></i>
                     <i className={classes.Jumbo__icon} style={{fontSize: "1.1rem", padding: "1.35rem .8rem"}}>Redux</i>
+                    <i className={`${classes.Jumbo__icon} devicon-angularjs-plain`}></i>
                     <i className={`${classes.Jumbo__icon} fab fa-npm`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-webpack-plain-wordmark`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-babel-plain`}></i>
@@ -41,6 +47,7 @@ const Header = (props) => {
                     <i className={`${classes.Jumbo__icon} devicon-wordpress-plain-wordmark`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-photoshop-line`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-illustrator-line`}></i>
+                    <i className={`${classes.Jumbo__icon} fab fa-figma`}></i>
                   </h1>
                 </Fade>
 
@@ -50,13 +57,13 @@ const Header = (props) => {
       style={{
         }}>
         <Container  className="text-center d-flex flex-column justify-content-center ">
-          <span className={classes.About}>
+          <div className={classes.About}>
             {name}
             {title}
             {about}
             {experience}            
             {icons}
-          </span>
+          </div>
         </Container>
       </Jumbotron>
     </div>
