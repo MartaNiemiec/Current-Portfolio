@@ -59,7 +59,7 @@
 
   &__name {
     font-family: 'Vivaldi Italic';
-    background-image: linear-gradient(to right, #df1a00 10%,#ecef2d 40%,#22d63a 48%,#286ef1 100%);;
+    background-image: linear-gradient(to right, #df1a00 10%,#ecef2d 40%,#22d63a 48%,#286ef1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
@@ -75,9 +75,25 @@
   &__icon {
     padding: .7rem;
     margin: .5rem;
+    width: 62px;
+    height: 62px;
     background-color: rgba(40, 0, 37, 0.3);
     border-radius: 8px;
     box-shadow:inset 1px 1px 1px 1px rgb(0, 174, 255);
+    @media (max-width: 420px) {
+      width: 54px;
+      height: 54px;
+    }
+  }
+
+  &__redux {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 420px) {
+      font-size: .9rem;
+    }
   }
 }
 

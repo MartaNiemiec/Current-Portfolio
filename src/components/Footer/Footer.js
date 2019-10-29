@@ -28,7 +28,7 @@ const projects = (props) => {
                       <li className={`list-inline-item `}>
                         <a href="https://twitter.com/Marta_Niemiec" 
                           className={`btn-floating btn-dribbble ${classes.Footer__socialIcon}`}>
-                          <i className="fab fa-github"></i>
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                     </ul>

@@ -35,7 +35,7 @@ const Header = (props) => {
                     <i className={`${classes.Jumbo__icon} devicon-bootstrap-plain`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-javascript-plain`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-react-original-wordmark`}></i>
-                    <i className={classes.Jumbo__icon} style={{fontSize: "1.1rem", padding: "1.35rem .8rem"}}>Redux</i>
+                    <i className={`${classes.Jumbo__icon} ${classes.Jumbo__redux}`}>Redux</i>
                     <i className={`${classes.Jumbo__icon} devicon-angularjs-plain`}></i>
                     <i className={`${classes.Jumbo__icon} fab fa-npm`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-webpack-plain-wordmark`}></i>
