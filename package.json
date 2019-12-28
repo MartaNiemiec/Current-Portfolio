@@ -4,14 +4,14 @@
   "homepage": "https://martaniemiec.github.io/Portfolio/",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "bootstrap": "^4.4.1",
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.0.1",
-    "reactstrap": "^8.0.0"
+    "reactstrap": "^8.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

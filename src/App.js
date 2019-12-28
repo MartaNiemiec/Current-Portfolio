@@ -16,10 +16,10 @@ function App() {
                 bgColor="bg-white" 
                 projectsTitle="Selected own projects" 
                 projects={<OwnProjects/>}/>
-      <Projects projectsId="couresProjects" 
+      {/* <Projects projectsId="couresProjects" 
                 bgColor="bg-light" 
                 projectsTitle="Selected courses projects" 
-                projects={<CouresProjects/>}/>
+                projects={<CouresProjects/>}/> */}
       <Footer />
     </div>
   );
