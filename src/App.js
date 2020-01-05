@@ -13,11 +13,9 @@ function App() {
       <Navigation />
       <Header />
       <Projects projectsId="ownProjects" 
-                bgColor="bg-white" 
                 projectsTitle="Selected own projects" 
                 projects={<OwnProjects/>}/>
       {/* <Projects projectsId="couresProjects" 
-                bgColor="bg-light" 
                 projectsTitle="Selected courses projects" 
                 projects={<CouresProjects/>}/> */}
       <Footer />

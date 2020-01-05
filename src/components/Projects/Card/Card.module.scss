@@ -8,22 +8,17 @@
     width: 300px;
   }
 
-  &:hover {
-    transform: scale(.99);
-  }
-
   &__content {
     transition: all .4s ease-in-out;
 
     & h4 {
       text-align: center;
-      transform: translateY(338px);
+      transform: translateY(340px);
       text-transform: uppercase;
       font-style: italic;
       font-weight: bolder;
       padding: 20px 10px;
-      background-image: linear-gradient(to right, rgba(104, 5, 161, 0.753), rgba(5, 108, 197, 0.767));
-      border-bottom: 3px solid white;
+      background-color: var(--color-secondary);
       transition: all .4s ease-in-out;
       @media (max-width: 420px) {
         padding: 15px 5px;
@@ -53,16 +48,9 @@
   }
 
   &:hover &__content h4 {
-    border-bottom-right-radius: 40px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    padding: 10px;
-    background-image: linear-gradient(to right, rgba(161, 56, 190, 0.801), rgba(46, 122, 189, 0.815));
+    padding: 1rem;
     width: inherit;
-    border-bottom: 2px solid white;
     transform: translateX(0);
-    margin: 1rem;
   }
 
   &:hover &__content h4,

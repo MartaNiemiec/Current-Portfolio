@@ -11,8 +11,8 @@ const projects = (props) => {
               </div>
 
   const contact = <div className="p-5">
-                    <h2 className={`text-light ${classes.Footer__contactMessage}`}>You can find me on:</h2>
-                    <ul className="list-unstyled text-center list-inline mt-4">
+                    <h1 className={`text-light mb-4 ${classes.Footer__contactMessage}`}>You can find me on:</h1>
+                    <ul className="list-unstyled text-center list-inline mt-5">
                       <li className={`list-inline-item `}>
                         <a href="https://www.linkedin.com/in/MartaNiemiec/" 
                           className={`btn-floating btn-dribbble ${classes.Footer__socialIcon}`}>
@@ -42,7 +42,7 @@ const projects = (props) => {
     <footer id="footer" className={`page-footer font-small special-color-dark ${classes.Footer}`} style={{overflow: "hidden"}}>
       <Fade bottom>
         <div className="container d-flex flex-wrap justify-content-center">
-          {map}
+          {/* {map} */}
           {contact}
         </div>
       </Fade>

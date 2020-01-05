@@ -5,11 +5,12 @@ import Fade from 'react-reveal/Fade';
 
 const Header = (props) => {
   const name = <h1 className={classes.Jumbo__name}>Marta Niemiec</h1>
-              
-  const title = <h3 >FRONT END DEVELOPER</h3>
-                
+               
+
+  const title = <h3>FRONT END DEVELOPER</h3>
+
   const about =  <div className={classes.Jumbo__info}>
-                    <p>Front End Developer passionate about building <span className="text-warning font-weight-bold">JavaScript</span> and <span className="text-info font-weight-bold">React.js</span> applications. </p>
+                    <p>Front End Developer passionate about building <span className="font-weight-bold">JavaScript</span> and <span className="font-weight-bold">React.js</span> applications. </p>
                     <p>Administrator of my WordPress travel website - 
                     <a href="http://www.bestandalucia.com/"> bestandalucia.com</a>. </p>
                     <p>Contributor to open source Angular project - 
@@ -17,9 +18,9 @@ const Header = (props) => {
                     <p>Graphic designer at GDG Málaga.</p>
                   </div>
 
-  const experience = <h4 className="mt-4">Experience with </h4>
+  const experience = <h3 className="mt-4 pt-5 text-uppercase">Experience with </h3>
 
-  const icons =   <h1 className="d-flex flex-wrap justify-content-center align-items-center">
+  const icons = <h1 className="d-flex flex-wrap justify-content-center align-items-center">
                     <i className={`${classes.Jumbo__icon} devicon-html5-plain-wordmark`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-css3-plain-wordmark`}></i>
                     <i className={`${classes.Jumbo__icon} devicon-sass-original`}></i>
@@ -46,16 +47,15 @@ const Header = (props) => {
       <Jumbotron fluid className={`"p-0 text-white vh-100" ${classes.Jumbo}`} 
       style={{
         }}>
-        <Container className="text-center d-flex flex-column justify-content-center">
-          <Fade  bottom delay={100}>
-            <div className={classes.About}>
-              {name}
-              {title}
-              {about}
-              {experience}            
-              {icons}
-            </div>
-          </Fade>
+        <Container  className="text-center d-flex flex-column justify-content-center ">
+          <Fade bottom delay={500}>
+          <div className={classes.About}>
+            {name}
+            {title}
+            {about}
+            {experience}            
+            {icons}
+          </div></Fade>
         </Container>
       </Jumbotron>
     </div>

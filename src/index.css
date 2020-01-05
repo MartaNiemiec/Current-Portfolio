@@ -19,6 +19,20 @@ code {
   src: local('Vivaldi Italic'), url('./assets/fonts/VIVALDII.woff') format('woff');
   }
 
+
+ /* VARIABLES */
+ /* colors */
+ :root {
+  --color-primary2: rgb(63, 62, 62);
+  --color-primary:rgb(24, 25, 27);
+  /* --color-secondary1: #ffc107; */
+  --color-secondary: rgb(229, 156, 19);
+  /* --color-secondary: #FFCC73; */
+  --color-secondary-dark: #be810e;
+  --color-light: #eee;
+}
+ 
+
   @media (max-width: 420px) {
     h1 {
       font-size: 2rem !important;
@@ -34,3 +48,7 @@ code {
     }
 
   }
+
+.App {
+  background-color: var(--color-primary);;
+}

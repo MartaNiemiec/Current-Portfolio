@@ -1,15 +1,27 @@
-.Projects__title {
-  color: rebeccapurple;
-  text-transform: uppercase;
-  padding-top: 20px;
+.Projects {
 
-  &::after {
+  &::before {
     position: absolute;
     content: '';
-    width:40%;
-    height:3px;
-    left:  30%;
-    box-shadow:  -0px 4px 2px  rgb(0, 174, 255);
-    transform: translateY(3.2rem)
+    width: 90%;
+    height: 2px;
+    left: 50%;
+    background-color: var(--color-primary2);
+    transform: translateX(-50%)
+  }
+
+  &__title {
+    color: var(--color-light);
+    text-transform: uppercase;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 24rem;
+      height: 3px;
+      left: 50%;
+      box-shadow: -0px 4px 2px var(--color-secondary);
+      transform: translate(-50%, 3.2rem)
+    }
   }
 }
