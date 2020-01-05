@@ -1,0 +1,16 @@
+.Navbar {
+  background-color: var(--color-primary);
+
+
+  &__link {
+    color: var(--color-light) !important;
+    border-bottom: 3px solid transparent !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--color-secondary) !important;
+      border-bottom: 3px solid var(--color-secondary) !important;
+    }
+  }
+}
