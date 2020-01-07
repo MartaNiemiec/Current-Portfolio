@@ -1,75 +1,68 @@
 .Card {
-  width: 335px;
+  width: 650px;
   height: auto;
   cursor: pointer;
   transition: all .4s linear;
   overflow: hidden;
-  @media (max-width: 420px) {
-    width: 300px;
+  background-color: var(--color-primary3) !important;
+  justify-content: space-evenly;
+  flex-direction: row !important;
+
+  @media (max-width: 650px) {
+    max-width: 450px;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 1rem;
   }
 
   &__content {
-    transition: all .4s ease-in-out;
+    width: 300px;
+    margin: .5rem 1rem;
+
+    @media (max-width: 650px) {
+      max-width: 250px;
+      align-content: center !important;
+    }
 
     & h4 {
-      text-align: center;
-      transform: translateY(340px);
+      color: var(--color-secondary);
       text-transform: uppercase;
       font-style: italic;
       font-weight: bolder;
-      padding: 20px 10px;
-      background-color: var(--color-secondary);
-      transition: all .4s ease-in-out;
-      @media (max-width: 420px) {
-        padding: 15px 5px;
-        transform: translateY(312px);
+      padding: 10px 0;
+
+      @media (max-width: 650px) {
+        width: 100%;
+        text-align: center;
       }
     }
 
     & h5 {
       margin-bottom: .3rem;
-      transform: translateY(300px);
-      transition: all .4s ease-in-out;
-      visibility: hidden;
-      margin: .2rem 1rem;
     }
 
     & ul {
       list-style: square;
-      transform: translateY(300px);
-      transition: all .4s ease-in-out;
-      visibility: hidden;
-      margin: 0 1rem;
     }
   }
 
-  &:hover &__content {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  &:hover &__content h4 {
-    padding: 1rem;
-    width: inherit;
-    transform: translateX(0);
-  }
-
-  &:hover &__content h4,
-  &:hover &__content h5,
-  &:hover &__content ul,
-  &:hover &__links {
-    visibility: visible;
-    transform: translateY(0);   
-  }
-
   &__img {
-    width: inherit;
-    height: auto;
+    margin: 1rem;
+    align-self: center;
+
+    @media (max-width: 650px) {
+      height: 270px !important;
+      margin-top: 1.5rem;
+    }
   }
 
   &__links {
-    transform: translateY(300px);
-    transition: all .1s ease-in-out;
-    visibility: hidden;
-    margin: 1rem;
+    margin: 1rem 0;
+
+    @media (max-width: 650px) {
+      display: flex;
+      justify-content: center;
+    }
   }
 }

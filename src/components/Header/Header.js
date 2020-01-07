@@ -15,7 +15,10 @@ const Header = (props) => {
                     <a href="http://www.bestandalucia.com/"> bestandalucia.com</a>. </p>
                     <p>Contributor to open source Angular project - 
                     <a href="https://topicfriends.org/"> TopicFriends</a>.</p> 
-                    <p>Graphic designer at GDG Málaga.</p>
+                    <p>Contributor to Angular project - 
+                    <a href="https://innotopic.com/"> InnoTopic</a>.</p> 
+                    <p>Graphic designer - 
+                    <a href="https://devfest.gdgmalaga.dev/">  GDG DevFest Málaga 2019</a>.</p>
                   </div>
 
   const experience = <h3 className="mt-4 pt-5 text-uppercase">Experience with </h3>

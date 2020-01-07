@@ -23,12 +23,11 @@ code {
  /* VARIABLES */
  /* colors */
  :root {
+  --color-primary:rgb(32, 33, 36);
   --color-primary2: rgb(63, 62, 62);
-  --color-primary:rgb(24, 25, 27);
-  /* --color-secondary1: #ffc107; */
-  --color-secondary: rgb(229, 156, 19);
-  /* --color-secondary: #FFCC73; */
-  --color-secondary-dark: #be810e;
+  --color-primary3:rgb(36, 37, 41);
+  --color-secondary: #FFCC73;
+  --color-secondary1: rgb(229, 156, 19);
   --color-light: #eee;
 }
  

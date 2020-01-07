@@ -1,8 +1,11 @@
 .CardLinks {
   &__icon {
     font-size: 1.5rem;
-    transition: all .3s linear;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary2);
 
+    &:hover i {
+      transition: all .2s ease-in-out;
+      color: var(--color-secondary);
+    }
   }
 }
