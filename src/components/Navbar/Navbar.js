@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink } from 'reactstrap';
 import * as classes from './Navbar.module.scss';
-import logo from '../../assets/images/favicon.png';
+import logo from '../../assets/images/logo.svg';
 import { NavLink as RRNavLink } from 'react-router-dom';
 
 export default class Navigation extends React.Component {
