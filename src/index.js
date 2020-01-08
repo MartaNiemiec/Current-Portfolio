@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const app = (
-  <BrowserRouter>
+  <BrowserRouter basename="/Portfolio">
     <App />
   </BrowserRouter>
 );

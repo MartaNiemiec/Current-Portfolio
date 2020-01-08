@@ -12,15 +12,15 @@ function App() {
     <div className="App">
       <Navigation />
       <Switch>
-        <Route path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
-        <Route path={process.env.PUBLIC_URL + "/projects"}>
+        <Route path="/contact" component={Contact} />
+        <Route path="/projects">
           <Projects
             projectsId="ownProjects"
             projectsTitle="Selected own projects"
             projects={<OwnProjects />}
           />
         </Route>
-        <Route path={process.env.PUBLIC_URL + "/"} exact component={Header} />
+        <Route path="/" exact component={Header} />
       </Switch>
       <Footer />
     </div>

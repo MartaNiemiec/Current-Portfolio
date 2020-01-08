@@ -7,17 +7,17 @@ const Card = (props) => {
   const technologies = props.technologies.split(",")
                                          .map((el, i) => <li key={i}>{el}</li>)
 
-  const image = <img left className={`${classes.Card__img} `} 
+  const image = <img className={`${classes.Card__img} `} 
                      width="auto"
                      height="300px" 
                      src={props.image} 
                      alt="Card img cap" />;
 
-  const cardContent =  <div>
-                      <h4>{props.cardTitle}</h4>
-                      <h5>Built using:</h5>
-                      <ul>{technologies}</ul>
-                    </div>
+  const cardContent = <div>
+                        <h4>{props.cardTitle}</h4>
+                        <h5>Built using:</h5>
+                        <ul>{technologies}</ul>
+                      </div>
 
   const cardLinks = <span className={classes.Card__links} >
                       <CardLinks liveLink={props.liveLink} 
