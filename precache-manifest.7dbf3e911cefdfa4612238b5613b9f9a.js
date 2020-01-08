@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5571f7b6b9028842343ab45ad6d276fa",
+    "revision": "eeab52ef9a9f2f1805acdb22213205bf",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.11091046.chunk.css"
   },
   {
-    "revision": "09f212caaa3c53ae8e8a",
+    "revision": "7bb971476ada35750d31",
     "url": "/Portfolio/static/css/main.6567f8be.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.da7a9b37.chunk.js"
   },
   {
-    "revision": "09f212caaa3c53ae8e8a",
-    "url": "/Portfolio/static/js/main.67c2bfe2.chunk.js"
+    "revision": "7bb971476ada35750d31",
+    "url": "/Portfolio/static/js/main.e467ebb8.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae7ef8734c6f066e49d51f90cdf37908",
     "url": "/Portfolio/static/media/learningplanner.ae7ef873.jpg"
+  },
+  {
+    "revision": "6c096eb4f6fe6c6ecd94645ae17a206a",
+    "url": "/Portfolio/static/media/logo.6c096eb4.svg"
   },
   {
     "revision": "4849dc17a3fa86acbf04045b3806bb87",
