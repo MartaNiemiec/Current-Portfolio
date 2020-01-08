@@ -52,13 +52,14 @@ const Header = (props) => {
         }}>
         <Container  className="text-center d-flex flex-column justify-content-center ">
           <Fade bottom delay={500}>
-          <div className={classes.About}>
-            {name}
-            {title}
-            {about}
-            {experience}            
-            {icons}
-          </div></Fade>
+            <div className={classes.About}>
+              {name}
+              {title}
+              {about}
+              {experience}            
+              {icons}
+            </div>
+          </Fade>
         </Container>
       </Jumbotron>
     </div>

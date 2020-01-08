@@ -10,7 +10,7 @@ import forkify from '../../assets/images/forkify.jpg';
 import burger from '../../assets/images/burger.jpg';
 // import Fade from 'react-reveal/Fade';
 
-const coursesProjects = (props) => {
+const CoursesProjects = (props) => {
   return (
     <Fragment>
     {/* <Fade bottom> */}
@@ -67,4 +67,4 @@ const coursesProjects = (props) => {
   );
 };
 
-export default coursesProjects;
+export default CoursesProjects;

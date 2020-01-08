@@ -8,7 +8,7 @@ import polind from '../../assets/images/polind.jpg';
 import bestandalucia from '../../assets/images/bestandalucia.jpg';
 // import Fade from 'react-reveal/Fade';
 
-const ownProjects = (props) => {
+const OwnProjects = (props) => {
   return (
     <Fragment>
     {/* <Fade bottom> */}
@@ -46,4 +46,4 @@ const ownProjects = (props) => {
   );
 };
 
-export default ownProjects;
+export default OwnProjects;

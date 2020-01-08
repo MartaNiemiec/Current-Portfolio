@@ -1,7 +1,7 @@
 import React from 'react';
  import * as classes from './Projects.module.scss';
 
-const projects = (props) => {
+const Projects = (props) => {
   return (
     <div id={props.projectsId} className={`w-100 ${classes.Projects}`}>
       <div className="pb-3 pt-3 pr-0 pl-0" style={{overflow: "hidden"}}>
@@ -16,4 +16,4 @@ const projects = (props) => {
   );
 };
 
-export default projects;
+export default Projects;

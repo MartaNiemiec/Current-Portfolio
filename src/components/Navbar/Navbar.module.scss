@@ -5,6 +5,7 @@
   &__link {
     color: var(--color-light) !important;
     border-bottom: 3px solid transparent !important;
+    margin: 0 .3rem;
 
     &:hover,
     &:active,
@@ -13,4 +14,9 @@
       border-bottom: 3px solid var(--color-secondary) !important;
     }
   }
+}
+
+a.active {
+  color: var(--color-secondary) !important;
+  border-bottom: 3px solid var(--color-secondary) !important;
 }

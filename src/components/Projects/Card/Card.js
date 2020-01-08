@@ -1,9 +1,9 @@
 import React from 'react';
 import * as classes from './Card.module.scss'; 
 import CardLinks from './CardLinks/CardLinks';
-import { Card } from 'reactstrap';
+import { Card as RRCard } from 'reactstrap';
 
-const card = (props) => {
+const Card = (props) => {
   const technologies = props.technologies.split(",")
                                          .map((el, i) => <li key={i}>{el}</li>)
 
@@ -26,14 +26,14 @@ const card = (props) => {
                     </span>
 
   return (
-      <Card inverse className={`${classes.Card} border-0 m-3 shadow`}>
+      <RRCard inverse className={`${classes.Card} border-0 m-3 shadow`}>
         {image}
         <div className={`${classes.Card__content} d-flex flex-column justify-content-between p-0`}>
           {cardContent}
           {cardLinks}
         </div>
-      </Card>
+      </RRCard>
   );
 };
 
-export default card;
+export default Card;

@@ -21,7 +21,6 @@ code {
 
 
  /* VARIABLES */
- /* colors */
  :root {
   --color-primary:rgb(32, 33, 36);
   --color-primary2: rgb(63, 62, 62);
@@ -29,6 +28,9 @@ code {
   --color-secondary: #FFCC73;
   --color-secondary1: rgb(229, 156, 19);
   --color-light: #eee;
+
+  --nav-height: 64px;
+  --footer-height: 68px;
 }
  
 

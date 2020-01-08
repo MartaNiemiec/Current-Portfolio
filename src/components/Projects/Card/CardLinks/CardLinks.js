@@ -2,7 +2,7 @@ import React from 'react';
 import * as classes from './CardLinks.module.scss';
 import { NavLink } from 'reactstrap';
 
-const cardLinks = (props) => {
+const CardLinks = (props) => {
   const courseLink = props.courseLink ? <NavLink className={`${classes.CardLinks__icon} m-2 text-light `} 
                                                 href={props.courseLink}>
                                         <i className="fas fa-graduation-cap"></i>
@@ -30,4 +30,4 @@ const cardLinks = (props) => {
   );
 };
 
-export default cardLinks;
+export default CardLinks;
