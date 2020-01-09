@@ -21,7 +21,7 @@ const Header = (props) => {
                     <a href="https://devfest.gdgmalaga.dev/">  GDG DevFest Málaga 2019</a>.</p>
                   </div>
 
-  const experience = <h3 className="mt-4 pt-5 text-uppercase">Experience with </h3>
+  const experience = <h3 className="mt-4 pt-3 text-uppercase">Experience with </h3>
 
   const icons = <h1 className="d-flex flex-wrap justify-content-center align-items-center">
                     <i className={`${classes.Jumbo__icon} devicon-html5-plain-wordmark`}></i>
@@ -51,7 +51,7 @@ const Header = (props) => {
       style={{
         }}>
         <Container  className="text-center d-flex flex-column justify-content-center ">
-          <Fade bottom delay={500}>
+          <Fade bottom>
             <div className={classes.About}>
               {name}
               {title}

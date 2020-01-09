@@ -6,12 +6,12 @@ import learningplanner from '../../assets/images/learningplanner.jpg';
 import ponggame from '../../assets/images/ponggame.jpg';
 import polind from '../../assets/images/polind.jpg';
 import bestandalucia from '../../assets/images/bestandalucia.jpg';
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 
 const OwnProjects = (props) => {
   return (
     <Fragment>
-    {/* <Fade bottom> */}
+    <Fade bottom>
       <Card cardTitle="Bestandalucia" 
             technologies="WordPress themes and plugins,CSS,Photoshop,Illustrator" 
             liveLink="http://www.bestandalucia.com/"
@@ -41,7 +41,7 @@ const OwnProjects = (props) => {
             liveLink="https://martaniemiec.github.io/Polind/" 
             githubLink="https://github.com/MartaNiemiec/Polind"
             image={polind}/>
-            {/* </Fade> */}
+            </Fade>
     </Fragment>
   );
 };
