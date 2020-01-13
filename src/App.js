@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Navigation from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
-import OwnProjects from './components/Projects/OwnProjects';
+import OwnProjects from './components/Projects/OwnProjectsList';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 
