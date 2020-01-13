@@ -1,0 +1,11 @@
+[
+  {
+    "link": "https://www.linkedin.com/in/MartaNiemiec/",
+    "iconClass": "fab fa-linkedin-in" },
+  {
+    "link": "https://github.com/MartaNiemiec",
+    "iconClass": "fab fa-github" },
+  {
+    "link": "https://twitter.com/Marta_Niemiec",
+    "iconClass": "fab fa-twitter" }
+]

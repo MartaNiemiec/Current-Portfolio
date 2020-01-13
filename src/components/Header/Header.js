@@ -2,6 +2,7 @@ import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import * as classes from './Header.module.scss';
 import Fade from 'react-reveal/Fade';
+import SkillIcons from './skilIcons.json';
 
 const Header = (props) => {
   const name = <h1 className={classes.Jumbo__name}>Marta Niemiec</h1>
@@ -24,25 +25,13 @@ const Header = (props) => {
   const experience = <h3 className="mt-4 pt-3 text-uppercase">Experience with </h3>
 
   const icons = <h1 className="d-flex flex-wrap justify-content-center align-items-center">
-                    <i className={`${classes.Jumbo__icon} devicon-html5-plain-wordmark`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-css3-plain-wordmark`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-sass-original`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-bootstrap-plain`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-javascript-plain`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-react-original-wordmark`}></i>
-                    <i className={`${classes.Jumbo__icon} ${classes.Jumbo__redux}`}>Redux</i>
-                    <i className={`${classes.Jumbo__icon} devicon-angularjs-plain`}></i>
-                    <i className={`${classes.Jumbo__icon} fab fa-npm`}></i>
-                    {/* <i className={`${classes.Jumbo__icon} devicon-webpack-plain-wordmark`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-babel-plain`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-nodejs-plain-wordmark`}></i> */}
-                    <i className={`${classes.Jumbo__icon} devicon-express-original-wordmark`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-postgresql-plain-wordmark`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-github-plain-wordmark`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-wordpress-plain-wordmark`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-photoshop-line`}></i>
-                    <i className={`${classes.Jumbo__icon} devicon-illustrator-line`}></i>
-                    <i className={`${classes.Jumbo__icon} fab fa-figma`}></i>
+                    {SkillIcons.map((el, i) => {
+                      if (el.name === "redux") {
+                        return <i key={i} className={`${classes.Jumbo__icon} ${classes.Jumbo__redux}`}>Redux</i>
+                      } else {
+                        return <i key={i} className={`${classes.Jumbo__icon} ${el.iconClass}`}></i>
+                      }
+                    })}
                   </h1>
 
   return (

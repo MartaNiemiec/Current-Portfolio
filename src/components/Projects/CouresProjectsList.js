@@ -8,7 +8,8 @@ const CoursesProjects = () => {
     <Fragment>
       <Fade bottom>
       { coursesProjects.map(el => {
-          return <Card cardTitle= {el.cardTitle} 
+          return <Card key={i}
+                  cardTitle= {el.cardTitle} 
                   technologies={el.technologies}
                   liveLink={el.liveLink}
                   githubLink={el.githubLink}

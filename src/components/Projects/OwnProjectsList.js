@@ -7,8 +7,9 @@ const OwnProjects = () => {
   return (
     <Fragment>
       <Fade bottom>
-        { ownProjects.map(el => {
-           return <Card cardTitle= {el.cardTitle} 
+        { ownProjects.map((el, i) => {
+           return <Card key={i}
+                   cardTitle= {el.cardTitle} 
                    technologies={el.technologies}
                    liveLink={el.liveLink}
                    githubLink={el.githubLink}

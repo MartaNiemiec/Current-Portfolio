@@ -1,29 +1,20 @@
 import React from 'react';
 import * as classes from './Contact.module.scss';
+import ContactsData from './contactsData.json';
 import Fade from 'react-reveal/Fade';
 
-const Contact = (props) => {
+const Contact = () => {
   const contact = <div className="pt-5">
                     <h1 className={`text-light mb-4 ${classes.Contact__contactMessage}`}>You can find me on:</h1>
                     <ul className="list-unstyled text-center list-inline mt-5">
-                      <li className={`list-inline-item `}>
-                        <a href="https://www.linkedin.com/in/MartaNiemiec/" 
-                          className={`btn-floating btn-dribbble ${classes.Contact__socialIcon}`}>
-                          <i className="fab fa-linkedin-in"> </i>
-                        </a>
-                      </li>
-                      <li className={`list-inline-item `}>
-                        <a href="https://github.com/MartaNiemiec" 
-                          className={`btn-floating btn-dribbble ${classes.Contact__socialIcon}`}>
-                          <i className="fab fa-github"></i>
-                        </a>
-                      </li>
-                      <li className={`list-inline-item `}>
-                        <a href="https://twitter.com/Marta_Niemiec" 
-                          className={`btn-floating btn-dribbble ${classes.Contact__socialIcon}`}>
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
+                      {ContactsData.map((el, i) => {
+                        return <li key={i} className="list-inline-item">
+                                  <a href={el.link} 
+                                    className={`btn-floating btn-dribbble ${classes.Contact__socialIcon}`}>
+                                    <i className={el.iconClass}></i>
+                                  </a>
+                                </li>
+                      })}
                     </ul>
                   </div>
   return (
