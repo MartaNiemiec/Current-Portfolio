@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="src/assets/images/favicon.png">
+  <img src="src/assets/images/logo.svg">
 </p>
 <h1 align="center">Portfolio</h1>
 
