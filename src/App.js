@@ -3,7 +3,8 @@ import { Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Navigation from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
-import OwnProjects from './components/Projects/OwnProjectsList';
+import OwnProjectsList from './components/Projects/OwnProjectsList';
+import Grafics from './components/Projects/Grafics/Grafics';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 
@@ -17,7 +18,14 @@ function App() {
           <Projects
             projectsId="ownProjects"
             projectsTitle="Selected own projects"
-            projects={<OwnProjects />}
+            projects={<OwnProjectsList />}
+          />
+        </Route>
+        <Route path="/graphics">
+          <Projects
+            projectsId="graphics"
+            projectsTitle="Grafics"
+            projects={<Grafics />}
           />
         </Route>
         <Route path="/" exact component={Header} />
