@@ -8,13 +8,22 @@
   justify-content: space-evenly;
   flex-direction: row !important;
 
-  @media (max-width: 650px) {
-    max-width: 450px;
+  @media (max-width: 680px) {
+    width: 85vw;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
     margin: 1rem;
   }
+  // @media (max-width: 550px) {
+  //   width: 360px;
+    
+  // }
+
+  // @media (max-width: 400px) {
+  //   width: 290px;
+    
+  // }
 
   &__content {
     width: 300px;

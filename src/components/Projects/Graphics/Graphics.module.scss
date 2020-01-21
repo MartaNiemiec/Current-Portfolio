@@ -1,0 +1,17 @@
+.Graphics {
+  max-width: 1000px;
+  padding: 0 1rem;
+
+  @media (min-width: 576px) {
+    column-count: 2 !important;
+  }
+  @media (min-width: 992px) {
+    column-count: 3 !important;
+  }
+
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

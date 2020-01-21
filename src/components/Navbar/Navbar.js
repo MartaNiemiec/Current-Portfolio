@@ -42,6 +42,9 @@ export default class Navigation extends React.Component {
                 <NavLink activeClassName={classes.active} tag={RRNavLink} className={classes.Navbar__link} to="/projects">PROJECTS</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink activeClassName={classes.active} tag={RRNavLink} className={classes.Navbar__link} to="/graphics">GRAPHICS</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink activeClassName={classes.active} tag={RRNavLink} className={classes.Navbar__link} to="/contact">CONTACT</NavLink>
               </NavItem>
             </Nav>
