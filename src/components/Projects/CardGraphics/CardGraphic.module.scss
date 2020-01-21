@@ -1,16 +1,9 @@
 .CardGraphics {
-  // width: 650px;
-  // height: 93%;
-  // cursor: pointer;
   transition: all .4s linear;
-  // overflow: hidden;
   background-color: transparent !important;
-  // background-color: var(--color-primary3) !important;
   border: none !important;
   margin-bottom: 1.25rem !important;
-  // justify-content: space-evenly;
   cursor: pointer;
-  // flex-direction: row !important;
   padding: 0 1rem;
 
   @media (min-width: 576px) {
@@ -20,7 +13,6 @@
   &:hover &__image {
     opacity: .15;
     transition: all .4s linear;
-
   }
 
   &:hover &__title {
@@ -31,7 +23,6 @@
     &::before,
     &::after {
       content: '';
-
       left: 50%;
       transform: translateX(-50%);
       width: 30%;
@@ -47,11 +38,7 @@
     &::after {
       bottom: 0;
     }
-
-
   }
-
-
 
   &__title {
     visibility: hidden;
@@ -59,14 +46,10 @@
     font-size: 1.5rem;
     font-weight: bolder;
     transition: all .2s linear;
-    // margin: 0 !important;
-    // color: var(--color-light);
   }
 
   &__image {
     background-color: transparent;
-    // max-width: 200px !important;
-    // height: auto !important;
     transition: all .2s linear;
   }
 
