@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Navigation from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import OwnProjectsList from './components/Projects/OwnProjectsList';
-import Grafics from './components/Projects/Grafics/Grafics';
+import Graphics from './components/Projects/Graphics/Graphics';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 
@@ -24,8 +24,8 @@ function App() {
         <Route path="/graphics">
           <Projects
             projectsId="graphics"
-            projectsTitle="Grafics"
-            projects={<Grafics />}
+            projectsTitle="Graphics"
+            projects={<Graphics />}
           />
         </Route>
         <Route path="/" exact component={Header} />
