@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eace5167c8ad8484c125fbe3d7a6486d",
+    "revision": "327c4fa4b15592f73c6b901767056b10",
     "url": "/Portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/css/2.11091046.chunk.css"
   },
   {
-    "revision": "c51a5f01d2672c7ae0b1",
+    "revision": "91048fe3301271ae1f26",
     "url": "/Portfolio/static/css/main.6e7e5900.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.17ee0578.chunk.js"
   },
   {
-    "revision": "c51a5f01d2672c7ae0b1",
-    "url": "/Portfolio/static/js/main.25fad725.chunk.js"
+    "revision": "91048fe3301271ae1f26",
+    "url": "/Portfolio/static/js/main.bbbf4f8c.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -104,8 +104,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/mybooks.4849dc17.jpg"
   },
   {
-    "revision": "111c7fa364c903741702d29fdc1cd012",
-    "url": "/Portfolio/static/media/polind.111c7fa3.jpg"
+    "revision": "b9823437411268370e133caad02a3491",
+    "url": "/Portfolio/static/media/polind.b9823437.jpg"
   },
   {
     "revision": "33e9117b90bfe3eedbeed36d7cac16cf",
