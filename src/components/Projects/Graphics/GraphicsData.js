@@ -13,6 +13,8 @@ import TrendyMeLandingPage from '../../../assets/images/TrendyMeLandingPage.jpg'
 import TrendyMeLadies from '../../../assets/images/TrendyMeLadies.jpg'
 import TrendyMeLadiesItem from '../../../assets/images/TrendyMeLadiesItem.jpg'
 import InnoTopic from '../../../assets/images/InnoTopic.jpg'
+import ContributorCard from '../../../assets/images/Contributor-card.png'
+import ContributorCardPlain from '../../../assets/images/contributor-card-3.png'
 
 export const graphicsData = [
   {
@@ -74,5 +76,13 @@ export const graphicsData = [
   {
     graphicName: "InnoTopic",
     image: InnoTopic
+  },
+  {
+    graphicName: "Contributor Card",
+    image: ContributorCard
+  },
+  {
+    graphicName: "Contributor Card Plain",
+    image: ContributorCardPlain
   },
 ]
