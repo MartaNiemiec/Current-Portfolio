@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec1fffa86ed37157c03ec522d119d697",
+    "revision": "78d674d0f862f9aad9e99814d9aeea2a",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "893abf4cb4b406a81953",
+    "revision": "929045b881e0f27bd420",
     "url": "/Portfolio/static/css/2.11091046.chunk.css"
   },
   {
-    "revision": "76c995bec6552464d953",
-    "url": "/Portfolio/static/css/main.99e78e01.chunk.css"
+    "revision": "675c9419cd8ac347d426",
+    "url": "/Portfolio/static/css/main.7b5e484c.chunk.css"
   },
   {
-    "revision": "893abf4cb4b406a81953",
-    "url": "/Portfolio/static/js/2.6c5139c7.chunk.js"
+    "revision": "929045b881e0f27bd420",
+    "url": "/Portfolio/static/js/2.4030d51d.chunk.js"
   },
   {
-    "revision": "76c995bec6552464d953",
-    "url": "/Portfolio/static/js/main.59d0f9eb.chunk.js"
+    "revision": "675c9419cd8ac347d426",
+    "url": "/Portfolio/static/js/main.5133c4bb.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -102,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae7ef8734c6f066e49d51f90cdf37908",
     "url": "/Portfolio/static/media/learningplanner.ae7ef873.jpg"
+  },
+  {
+    "revision": "73b930cb0faaa9643c1e84ee8defac75",
+    "url": "/Portfolio/static/media/logo-bestandalucia.73b930cb.png"
   },
   {
     "revision": "6c096eb4f6fe6c6ecd94645ae17a206a",
