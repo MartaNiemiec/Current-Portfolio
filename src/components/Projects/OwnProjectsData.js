@@ -8,27 +8,27 @@ import bestandalucia from '../../assets/images/bestandalucia.jpg';
 export const ownProjects = [
   {
     cardTitle: "Bestandalucia",
-    technologies: "WordPress themes and plugins,CSS,Photoshop,Illustrator",
+    technologies: "WordPress themes and plugins,Custom CSS,Photoshop,Illustrator",
     liveLink: "http://www.bestandalucia.com/",
     image: bestandalucia
   },
   {
     cardTitle: "My Books",
-    technologies: "HTML/SCSS,NPM,React,Redux,Google Books API",
+    technologies: "HTML/SCSS,React,Redux,Google Books API",
     liveLink: "https://martaniemiec.github.io/My-Books-with-Redux/",
     githubLink: "https://github.com/MartaNiemiec/My-Books-with-Redux",
     image: mybooks
   },
   {
     cardTitle: "Star Wars",
-    technologies: "HTML/CSS,NPM,React,Tachyons,The Star Wars API,React Particles.js",
+    technologies: "HTML/CSS,React,Tachyons (CSS Toolkit),The Star Wars API,React Particles.js",
     liveLink: "https://martaniemiec.github.io/starwars_api/",
     githubLink: "https://github.com/MartaNiemiec/starwars_api",
     image: starwars
   },
   {
     cardTitle: "Learning planner",
-    technologies: "HTML/SCSS,Vanilla JavaScript (ES6),Webpack/Babel,NPM,Node.js/Express.js,PostgreSQL,Deployed on Heroku",
+    technologies: "HTML/SCSS,Vanilla JavaScript (ES6),Webpack/Babel,Node.js/Express.js,PostgreSQL,Deployed on Heroku",
     liveLink: "https://martaniemiec.github.io/Learning-planner/dist/index.html",
     githubLink: "https://github.com/MartaNiemiec/Learning-planner",
     image: learningplanner
@@ -42,7 +42,7 @@ export const ownProjects = [
   },
   {
     cardTitle: "Polind",
-    technologies: " HTML,SCSS,CSS Grid,Flexbox,NPM,JavaScript",
+    technologies: " HTML/SCSS,JavaScript (only for menu)",
     liveLink: "https://martaniemiec.github.io/Polind/",
     githubLink: "https://github.com/MartaNiemiec/Polind",
     image: polind
