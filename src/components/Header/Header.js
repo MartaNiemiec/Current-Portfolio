@@ -8,7 +8,10 @@ const Header = (props) => {
   const name = <h1 className={classes.Jumbo__name}>Marta Niemiec</h1>
                
 
-  const title = <h3>FRONT END DEVELOPER</h3>
+  const title = <span>
+                  <h3>FRONT END DEVELOPER</h3>
+                  <h3>WEB & GRAPHIC DESIGNER</h3>
+                </span>
 
   const about =  <div className={classes.Jumbo__info}>
                     <p>Front End Developer passionate about building <span className="font-weight-bold">JavaScript</span> and <span className="font-weight-bold">React.js</span> applications. </p>
