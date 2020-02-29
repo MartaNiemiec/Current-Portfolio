@@ -16,6 +16,11 @@ import InnoTopic from '../../../assets/images/InnoTopic.jpg';
 import ContributorCard from '../../../assets/images/Contributor-card.png';
 import ContributorCardPlain from '../../../assets/images/contributor-card-3.png';
 import LogoBestandalucia from '../../../assets/images/logo-bestandalucia.png';
+import BetReportFavicon from '../../../assets/images/BR-favicon.png';
+import BetReportAvatar from '../../../assets/images/BR-avatar.png';
+import BetReportAvatar2 from '../../../assets/images/BR-avatar2.png';
+import BetReportBanner from '../../../assets/images/BR-banner.jpg';
+import BetReportStamps from '../../../assets/images/BR-stamps.png';
 
 export const graphicsData = [
   {
@@ -89,5 +94,25 @@ export const graphicsData = [
   {
     graphicName: 'Contributor Card Plain',
     image: ContributorCardPlain
+  },
+  {
+    graphicName: 'BetReport Favicon',
+    image: BetReportFavicon
+  },
+  {
+    graphicName: 'BetReport Avatar',
+    image: BetReportAvatar
+  },
+  {
+    graphicName: 'BetReport Avatar',
+    image: BetReportAvatar2
+  },
+  {
+    graphicName: 'BetReport Banner',
+    image: BetReportBanner
+  },
+  {
+    graphicName: 'BetReport Stamps',
+    image: BetReportStamps
   }
 ];
