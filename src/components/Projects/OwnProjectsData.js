@@ -4,6 +4,7 @@ import learningplanner from '../../assets/images/learningplanner.jpg';
 import ponggame from '../../assets/images/ponggame.jpg';
 import polind from '../../assets/images/polind.jpg';
 import bestandalucia from '../../assets/images/bestandalucia.jpg';
+import trendyme from '../../assets/images/TrendyMeLandingPage.jpg';
 
 export const ownProjects = [
   {
@@ -11,6 +12,13 @@ export const ownProjects = [
     technologies: "WordPress themes and plugins,Custom CSS,Photoshop,Illustrator",
     liveLink: "http://www.bestandalucia.com/",
     image: bestandalucia
+  },
+  {
+    cardTitle: "Trendy Me",
+    technologies: "HTML/SCSS,TypeScript,Angular 8,RxJS,Material Design",
+    liveLink: "https://martaniemiec.github.io/trendy-shop/",
+    githubLink: "https://github.com/MartaNiemiec/trendy-shop",
+    image: trendyme
   },
   {
     cardTitle: "My Books",
