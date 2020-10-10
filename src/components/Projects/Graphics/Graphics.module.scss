@@ -1,13 +1,13 @@
 .Graphics {
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 0 1rem;
 
   @media (min-width: 576px) {
     column-count: 2 !important;
   }
-  @media (min-width: 992px) {
-    column-count: 3 !important;
-  }
+  // @media (min-width: 992px) {
+  //   column-count: 3 !important;
+  // }
 
   &__images {
     display: flex;
