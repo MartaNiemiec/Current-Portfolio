@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "270c733cde3ddcfaf16ed08ba04abf12",
+    "revision": "aa7f4d24efd2f323ab0edca6a308b3a2",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "3544949697e7892075f1",
+    "revision": "a18bf2cbc955844d2549",
     "url": "/Portfolio/static/css/2.11091046.chunk.css"
   },
   {
-    "revision": "a88635557790c86a17ad",
-    "url": "/Portfolio/static/css/main.1165bd66.chunk.css"
+    "revision": "6aa3427b66cb23141cc6",
+    "url": "/Portfolio/static/css/main.9ecd6b29.chunk.css"
   },
   {
-    "revision": "3544949697e7892075f1",
-    "url": "/Portfolio/static/js/2.99cb8185.chunk.js"
+    "revision": "a18bf2cbc955844d2549",
+    "url": "/Portfolio/static/js/2.a2e55607.chunk.js"
   },
   {
-    "revision": "a88635557790c86a17ad",
-    "url": "/Portfolio/static/js/main.6ba75935.chunk.js"
+    "revision": "6aa3427b66cb23141cc6",
+    "url": "/Portfolio/static/js/main.5165f3fb.chunk.js"
   },
   {
     "revision": "6b64d540f1308ee928ad",
@@ -48,16 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/BR-stamps.6eb706a4.png"
   },
   {
+    "revision": "5f2bf33fb345162eb5a2b47628333af6",
+    "url": "/Portfolio/static/media/ChefRecipes.5f2bf33f.jpg"
+  },
+  {
     "revision": "31613801759edccd4a8a44bb8bf9df1b",
     "url": "/Portfolio/static/media/Contributor-card.31613801.png"
   },
   {
-    "revision": "9976f2d7c3e71caa36b3ec3f0c5e1591",
-    "url": "/Portfolio/static/media/DevFest-Badge-Attendee-circles.9976f2d7.png"
+    "revision": "24c97bcc7b64f8265969726aaf4def89",
+    "url": "/Portfolio/static/media/DevFest-Badges-Attendee.24c97bcc.jpg"
   },
   {
-    "revision": "1c47af15e717565eda60efe22d105ce6",
-    "url": "/Portfolio/static/media/DevFest-Badge-Attendee.1c47af15.png"
+    "revision": "db26ca17ea099b61be8779a01427cd60",
+    "url": "/Portfolio/static/media/DevFest-Badges-circles.db26ca17.jpg"
   },
   {
     "revision": "1c0015f12ac5ebb6d03f1fe4d43dc72e",
@@ -80,24 +84,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Devfest-logo.356f1979.png"
   },
   {
-    "revision": "546c558ee38e5be846880229fae8d70b",
-    "url": "/Portfolio/static/media/InnoTopic.546c558e.jpg"
+    "revision": "9b16be0c2399fbeb9d1e330c8625f19f",
+    "url": "/Portfolio/static/media/InnoTopic2.9b16be0c.png"
+  },
+  {
+    "revision": "bec8938a6eaeb7dfd7063b1b219c8ab4",
+    "url": "/Portfolio/static/media/MyTalkingTomMobileMockup.bec8938a.png"
   },
   {
     "revision": "4bb1284412eeae68a57502cd6ba4bb12",
     "url": "/Portfolio/static/media/TrendyMe-logo.4bb12844.svg"
   },
   {
-    "revision": "458016cd77f1e4adfe6d02730c9c5a52",
-    "url": "/Portfolio/static/media/TrendyMeLadies.458016cd.jpg"
+    "revision": "7b5aa7219e427f2a890320998ae7a6c6",
+    "url": "/Portfolio/static/media/TrendyMeLadies.7b5aa721.png"
   },
   {
-    "revision": "bf33950d46752e52c2a6cc14cf7a8b1e",
-    "url": "/Portfolio/static/media/TrendyMeLadiesItem.bf33950d.jpg"
+    "revision": "6f2c2952d844ba4b1cd2e99fc6332e97",
+    "url": "/Portfolio/static/media/TrendyMeLadiesItem.6f2c2952.png"
   },
   {
     "revision": "1085488f1b285f1dc90cdb0fdf88b970",
     "url": "/Portfolio/static/media/TrendyMeLandingPage.1085488f.jpg"
+  },
+  {
+    "revision": "6a73f861f0f5e5d4b4ab3627b56c5708",
+    "url": "/Portfolio/static/media/TrendyMeLandingPage.6a73f861.png"
   },
   {
     "revision": "9899e24ad145a8a2e0e627bd7701cdfe",
